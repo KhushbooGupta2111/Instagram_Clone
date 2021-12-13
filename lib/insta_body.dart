@@ -4,12 +4,11 @@ import 'package:instagram_clone/insta_list.dart';
 class InstaBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return new Column(
       mainAxisAlignment: MainAxisAlignment.start,
       children: <Widget>[
-        Flexible(
-          child: InstaList(),
-        )
+        // Expanded(flex: 1, child: new InstaStories()),
+        Flexible(child: InstaList())
       ],
     );
   }

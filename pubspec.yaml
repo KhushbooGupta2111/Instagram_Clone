@@ -29,7 +29,8 @@ flutter:
 
   uses-material-design: true
   assets:
-    - assets/images/
+    - assets/images/shweta.png
+    - assets/images/rahul.png
     - assets/fonts/
 
   fonts:
